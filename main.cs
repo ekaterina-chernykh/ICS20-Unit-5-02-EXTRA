@@ -25,16 +25,15 @@ class Program
         Console.WriteLine(" ");
         if (userNumber == 1)
         {
-          randomNumber = rnd.Next(1, 6);
-          Console.WriteLine("Your random number is " + randomNumber);
+        randomNumber = rnd.Next(1, 6);
+        Console.WriteLine("Your random number is " + randomNumber);
         }
         else
         {
-          randomNumber = rnd.Next(-6, -1);
-          Console.WriteLine("Your random number is " + randomNumber);
+        randomNumber = rnd.Next(-6, -1);
+        Console.WriteLine("Your random number is " + randomNumber);
         }
 
-        Console.WriteLine("\nDone."); 
+        Console.WriteLine("\nDone.");
     }
-  
 }
