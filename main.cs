@@ -13,7 +13,7 @@ class Program
         int randomNumber;
 
         // This function accepts user input
-        Console.WriteLine("Do you want a positive or negative");
+        Console.WriteLine("Do you want a positive or negative random number?");
         Console.WriteLine(" ");
 
         Console.WriteLine("Enter 1 if positive, 2 if negative ");
@@ -25,13 +25,13 @@ class Program
         Console.WriteLine(" ");
         if (userNumber == 1)
         {
-          randomNumber = rnd.Next(1, 6);
-          Console.WriteLine("Your random number is " + randomNumber);
+            randomNumber = rnd.Next(1, 6);
+            Console.WriteLine("Your random number is " + randomNumber);
         }
         else
         {
-          randomNumber = rnd.Next(-6, -1);
-          Console.WriteLine("Your random number is " + randomNumber);
+            randomNumber = rnd.Next(-6, -1);
+            Console.WriteLine("Your random number is " + randomNumber);
         }
 
         Console.WriteLine("\nDone.");
