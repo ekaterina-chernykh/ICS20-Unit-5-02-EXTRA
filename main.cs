@@ -1,7 +1,7 @@
 // Created by: Ekaterina
 // Created on: Nov 2022
 //
-// This program generates random number
+// This program generates random positive or negative number
 
 using System;
 
