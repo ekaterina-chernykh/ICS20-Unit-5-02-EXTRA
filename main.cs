@@ -34,6 +34,7 @@ class Program
           Console.WriteLine("Your random number is " + randomNumber);
         }
 
-        Console.WriteLine("\nDone.");
+        Console.WriteLine("\nDone."); 
     }
+  
 }
